@@ -4,7 +4,7 @@ int Max(int arg1, int arg2, int arg3)/* назначаем три числа и 
 int result = arg1; /* принимаем arg1 за максимальное число.*/
 if(arg2 > result) result = arg2;
 if(arg3 > result) result = arg3;
-return result; /* возвращаем результат*/
+return result; /* возвращаем результат.*/
 }
 
 int a1 = 21;
