@@ -13,9 +13,7 @@ string Method4(int count, string text)/* Выведем строку (text) coun
     }
     return result;  /* result- это та переменная, значение которой мы хотим получить из метода.*/
 }
-
 /*Вызов метода...*/
-
 /* Создадим переменную res.*/
 string res = Method4(10, "какой-то текст "); /* На экране будет 10 раз "какой-то текст".*/
 Console.WriteLine(res);
