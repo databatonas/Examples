@@ -5,8 +5,7 @@
 
    int Method3()
    {
-    return DateTime. Now. Year;/* return обязательно. DateTime. Now. 
-                                  Year-для примера выведем дату(к моему 
+    return DateTime. Now. Year;/* return обязательно. DateTime. Now. Year-для примера выведем дату(к моему 
                                   удивлению определяется автоматически).*/
    }
    /* Вызов метода...*/
