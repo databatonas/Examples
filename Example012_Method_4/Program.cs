@@ -5,7 +5,6 @@ string Method4(int count, string text)/* Выведем строку (text) coun
     int i = 0;
     string result = string.Empty;/* string.Empty- пустая строка (как ноль). 
                                     Вместо string.Empty можно ставить ("").*/
-
     while (i < count)
     {
         result = result + text;
@@ -15,7 +14,6 @@ string Method4(int count, string text)/* Выведем строку (text) coun
 }
 
 /*Вызов метода...*/
-
 /* Создадим переменную res.*/
 string res = Method4(10, "какой-то текст "); /* На экране будет 10 раз "какой-то текст".*/
 Console.WriteLine(res);
