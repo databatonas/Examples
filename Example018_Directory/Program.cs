@@ -46,5 +46,9 @@ void CatalogInfo(string path, string indent = "")/* Создаём метод (C
         Console.WriteLine($"{indent}{files[i].Name}"); /* покажем их.*/
     }
 }
+/* Вводим переменную (path- путь) и копируем путь к папке, которую хотим посмотреть. 
+   (Например: правой кнопкой мыши на папкуExample001_YelloConsole и в открывшемся окне Copy Path). 
+   Как ни странно, в скопированной версии пути к папке все слеши идут слева направо и выдаются за ошибку. 
+   Нужно поменять все слеши и всё будет работать.*/
 string path = @"C:/Users/PC/Desktop/Обучение/Знакомство с языками программирования/Лекции/Examples/Example001_HelloConsole";
-CatalogInfo(path);
+CatalogInfo(path); /* Вызываем наш метод.*/
