@@ -1,6 +1,6 @@
 ﻿// Собрать строку с числами от a до b, a <= b
 
-// Итеративный пдход
+// Итеративный пoдход
 string NumbersFor(int a, int b)
 {
     string result = string.Empty; /* Переменной result присваиваем пустую строку.*/
